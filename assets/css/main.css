@@ -1,6 +1,7 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
 
+
 /*
 	Spectral by HTML5 UP
 	html5up.net | @ajlkn
@@ -23,7 +24,11 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+	font-family: "微軟正黑體";
+
+}
+
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -2681,11 +2686,11 @@ input, select, textarea {
 		}
 
 		.spotlight:nth-child(1) {
-			background-color: rgba(0, 0, 0, 0.075);
+			background-color: rgba(2, 231, 193, 0.151);
 		}
 
 		.spotlight:nth-child(2) {
-			background-color: rgba(0, 0, 0, 0.15);
+			background-color: rgba(4, 90, 204, 0.15);
 		}
 
 		.spotlight:nth-child(3) {
@@ -2701,7 +2706,7 @@ input, select, textarea {
 		}
 
 		.spotlight:nth-child(6) {
-			background-color: rgba(0, 0, 0, 0.45);
+			background-color: rgba(46, 97, 3, 0.45);
 		}
 
 		.spotlight:nth-child(7) {
@@ -2795,7 +2800,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #21b2a6;
+			background-color: #135cbd;
 			color: #c8ece9;
 		}
 
@@ -3560,6 +3565,7 @@ input, select, textarea {
 		overflow: hidden;
 		position: relative;
 		text-align: center;
+
 	}
 
 		#banner h2 {
@@ -3577,6 +3583,8 @@ input, select, textarea {
 			padding: 0.35em 1em;
 			position: relative;
 			z-index: 1;
+			
+
 		}
 
 			#banner h2:before, #banner h2:after {
@@ -3594,6 +3602,7 @@ input, select, textarea {
 				height: 2px;
 				position: absolute;
 				width: 100%;
+				
 			}
 
 			#banner h2:before {
